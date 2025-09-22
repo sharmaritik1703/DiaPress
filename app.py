@@ -17,9 +17,9 @@ def main():
         show_report()
 
 def show_home():
-    st.title("GlucoSense: A non-invasive Blood Glucose monitor")
+    st.title("DiaPress: A non-invasive health monitor using breath")
     st.markdown("""
-    GlucoSense is an AI-powered web application designed to predict diabetes non-invasively using breath-based sensor data and physiological parameters. This tool leverages machine learning algorithms to classify individuals into three categories—non-diabetic, prediabetic, and highly diabetic—based on volatile organic compound (VOC) responses from breath samples, along with body vitals and demographic details.
+    DiaPress is an AI-powered web application designed to predict diabetes and hypertension noninvasively using breath-based sensor data and physiological parameters. This tool leverages machine learning algorithms to classify individuals into three categories—non-diabetic, prediabetic, and highly diabetic—based on volatile organic compound (VOC) responses from breath samples, along with body vitals and demographic details.
 
     ## Key Features:
     - **Non-Invasive Prediction** – Eliminates the need for painful blood tests by analyzing breath samples.
@@ -87,10 +87,10 @@ def show_home():
     st.session_state["body_vitals"] = body_vitals
 
 def show_report():
-    st.title("GlucoSense: Health Report")
+    st.title("DiaPress: Health Report")
     st.markdown("""
-    The Diabetes Report page in GlucoSense provides a detailed analysis of an individual's health status based on breath-based sensor data and physiological parameters. 
-    This report offers valuable insights into diabetes classification—non-diabetic, prediabetic, or highly diabetic—using advanced machine learning techniques.
+    The Diabetes Report page in DiaPress provides a detailed analysis of an individual's health status based on breath-based sensor data and physiological parameters. 
+    This report uses advanced machine learning techniques to offer valuable insights into diabetes classification—non-diabetic, prediabetic, or highly diabetic.
     """)
 
     if "diabetes_result" in st.session_state and "bgl_result" in st.session_state:
