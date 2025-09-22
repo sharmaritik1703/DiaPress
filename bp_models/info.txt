@@ -1,2 +1,2 @@
 max.pkl --> systolic blood pressure predictor
-min.plk --> diastolic blood pressure predictor
+min.pkl --> diastolic blood pressure predictor
