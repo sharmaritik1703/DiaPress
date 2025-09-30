@@ -4,5 +4,7 @@ DiaPress is an AI-powered web application for noninvasive monitoring of blood gl
 Link: https://diapress-fntdkua9vdlejulbqmzbsq.streamlit.app/
 
 ## Papers:
+
 Non-invasive blood pressure monitoring: https://ieeexplore.ieee.org/abstract/document/11144768 
+
 Non-invasive diabetes monitoring: https://dl.acm.org/doi/10.1145/3768157
