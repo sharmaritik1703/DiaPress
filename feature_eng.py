@@ -28,8 +28,8 @@ def compute_derivative_features(signal):
 
 def compute_integral_features(signal_samples):
     if len(signal_samples) > 1:
-        integral = np.trapz(signal_samples) / len(signal_samples)
-        squared_integral = np.trapz(np.square(signal_samples)) / len(signal_samples)
+        integral = np.trapezoid(signal_samples) / len(signal_samples)
+        squared_integral = np.trapezoid(np.square(signal_samples)) / len(signal_samples)
         return [integral, squared_integral]
     else:
         return [0] * 2
@@ -158,3 +158,4 @@ def generate_features(df):
 
     features = pd.DataFrame([feature_vector], columns=sensor_feature_names)
     return features
+
