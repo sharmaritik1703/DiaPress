@@ -63,8 +63,9 @@ def perform_bp_test(test_data):
 
 def remove_irrelevant_data(df):
     # Read the CSV file into a DataFrame, skipping the first 3 rows and setting the 4th row as header
-    df.columns = ['H', 'MQ138', 'SSID', 'T', 'TGS2600', 'TGS2602', 'TGS2603', 'TGS2610', 'TGS2620', 'TGS822', 'Device', 'Time']
-    df = df.drop(['SSID', 'Device', 'H', 'T', 'Time'], axis=1)
+    # df.columns = ['H', 'MQ138', 'SSID', 'T', 'TGS2600', 'TGS2602', 'TGS2603', 'TGS2610', 'TGS2620', 'TGS822', 'Device', 'Time']
+    df.columns = ["H", "MQ138", "SSID", "T", "TGS2600", "TGS2602", "TGS2603", "TGS2610", "TGS2620", "TGS822", "device", "time"]
+    df = df.drop(['SSID', 'device', 'H', 'T', 'time'], axis=1)
     return df.reset_index(drop=True)
 
 def generate_data(sensors_data, body_vitals):
@@ -111,5 +112,6 @@ class RemoveHighlyCorrelatedFeatures(BaseEstimator, TransformerMixin):
 
     def __setstate__(self, state):
         self.__dict__.update(state)
+
 
 
