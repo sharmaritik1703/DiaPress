@@ -1,5 +1,5 @@
 # Non-Invasive Disease Monitoring Using Multimodal AI
-This platform is an AI-powered web application for noninvasive monitoring of blood glucose levels (BGL) and blood pressure (BP). By combining breath-based VOC sensor data with physiological parameters, ML model provides accurate, real-time insights into cardiometabolic health.
+This platform is an AI-powered web application for noninvasive monitoring of blood glucose levels (BGL) and blood pressure (BP). By combining breath-based VOC sensor data (6 MOS sensors) with physiological parameters (age, gender, heart rate, SpO2), the ML model provides accurate, real-time insights into cardiometabolic health.
 
 Link: https://diapress-fntdkua9vdlejulbqmzbsq.streamlit.app/
 
