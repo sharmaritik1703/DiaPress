@@ -1,5 +1,5 @@
 # Non-Invasive Disease Monitoring Using Multimodal AI
-DiaPress is an AI-powered web application for noninvasive monitoring of blood glucose levels (BGL) and blood pressure (BP). By combining breath-based VOC sensor data with physiological parameters, DiaPress provides accurate, real-time insights into cardiometabolic health.
+This platform is an AI-powered web application for noninvasive monitoring of blood glucose levels (BGL) and blood pressure (BP). By combining breath-based VOC sensor data with physiological parameters, ML model provides accurate, real-time insights into cardiometabolic health.
 
 Link: https://diapress-fntdkua9vdlejulbqmzbsq.streamlit.app/
 
